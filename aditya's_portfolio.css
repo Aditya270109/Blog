@@ -1,0 +1,100 @@
+#navbar {
+    background-color: rgb(26, 171, 228);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+    text-align: end;
+    margin: 0;
+    margin-left: 0px;
+    z-index: 100;
+
+  }
+  
+ #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  
+#navbar a:hover {
+    background-color: yellow;
+    color: black;
+  }
+/* .navb-img {
+    background-color: lightgray;
+    text-align: left;
+} */
+.image {
+    background-color: lightgray;
+    text-align: center;
+    margin: 0px;
+
+}
+.nav-cont {
+    margin-top: 20px;
+    margin-left: 400px;
+    text-align: left;
+} 
+.gap {
+    height: 300px;
+    width: 400px;
+    background-color: lightgray;
+    text-align: center;
+    margin:auto ;
+    padding-top:150px ;
+    font-size: large;
+}
+body {
+  margin-left: 0px;
+}
+.name {
+    font-size: 50px;
+    font-family: cursive;
+}
+.hi {
+    text-align: center;
+    color:  darkcyan ;
+}
+.intro {
+    text-align: center;
+    color: black;
+}
+.what_i{
+    display:inline;
+    margin-left: 305px;
+}
+.under-what {
+    margin-left: 190px;
+}
+.develop {
+    margin-left: 250px;
+    display: inline;
+    text-align: center;
+}
+.image-what {
+    margin-left:250px ;
+}
+.help {
+    text-align: center;
+}
+.footer {
+    text-align: center;
+    background-color: #c5ded7;
+    height: 200px;
+}
+.contact {
+    text-align: center;
+}
+.flex-box {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%
+    
+}
